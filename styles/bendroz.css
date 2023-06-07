@@ -1,0 +1,308 @@
+/**/
+/* rouge - #E84545
+noir  - #262626 */
+
+
+* {
+    font-family: 'HeyWow', sans-serif;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+    color: #262626;
+    background-color: #f7f6f6;
+    /*background-image: url(../images/background.svg);*/
+    background-size: 100px;
+    font-size: 20px;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    
+}
+
+/**/
+/**/
+/**/
+
+/* CONTENU COMMUN */
+
+div.titre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+div.titre .dot {
+    border-bottom: #E84545 10px dotted;
+    width: 100px;
+    margin: 50px 0px;
+}
+
+div.box {
+    margin: 0px 0px;
+    padding: 100px 0px;
+    border-top: #a5a5a556 1px solid;
+}
+
+.grey {
+    background-color: #ecebeb;
+}
+
+.colonne {
+    flex-direction: column;
+}
+
+.ligne {
+    flex-direction: row;
+}
+
+.flex_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+/* PREMIER ELEMENT */
+
+div.premier_element{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+div.theme {
+    font-size: 40px;
+    background-color: #E84545;
+    color: #ffffff;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+
+div.theme p {
+    margin: 0;
+}
+
+div.element p {
+    max-width: 600px;
+}
+
+
+
+div.prestation .element {
+    padding: 0px 30px;
+}
+
+/**/
+/**/
+/**/
+
+/* HEADER */
+
+div.header {
+    width: 100%;
+    height: 79px;
+    top: 0px;
+    position: fixed;
+    background-color: rgb(247, 246, 246);
+    border-bottom: #a5a5a556 1px solid;
+    box-shadow: 0px 0px 10px 1px #a5a5a5;
+    padding: 10px 0px;
+}
+
+.header img {
+    height: 70px;
+}
+
+div.element {
+    padding: 0px 30px;
+}
+
+div.header ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+div.header li {
+    list-style: none;
+    padding: 20px;
+}
+
+div.header a {
+    all:unset;
+    cursor: pointer;
+}
+
+div.header a:hover {
+    color: #E84545;
+}
+
+/**/
+/**/
+/**/
+
+/* FOOTER */
+
+footer {
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+    height: 400px;
+    background-color: #E84545;
+}
+
+footer img {
+    padding: 30px;
+    height: 80px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/**/
+/**/
+/**/
+
+/* DECOUVRIR NOS PRESTATIONS */
+
+div.bouton_prestation a {
+    text-decoration: none;
+    color: #262626;
+    padding: 15px 5px;
+    margin: 20px;
+    background-color: #c4c4c4;
+    border-radius: 20px;
+    width: 250px;
+}
+
+div.bouton_prestation p {
+    margin-left: 10px;
+}
+
+div.bouton_prestation a:hover {
+    color: #ffffff;
+    box-shadow: 0px 0px 20px 10px #ffffff;
+}
+
+/* REFERENCE */
+
+div.reference {
+    padding: 20px;
+    background-color: #e0dede;
+    margin: 30px 0px;
+    max-width: 600px;
+}
+
+div.reference:hover {
+    background-color: #e9e8e8;
+    box-shadow: 0px 0px 30px 8px #E84545;
+}
+
+div.reference img {
+    height: 190px;
+}
+
+div.reference .element {
+    margin: 15px;
+}
+
+/**/
+/**/
+/**/
+
+/* PRESTATION */
+
+img.prestation {
+    height: 250px;
+}
+
+/* AFFICHE */
+
+div.prestation div.affiche {
+    max-width: 400px;
+    margin: 0px 50px;
+    border: #E84545 solid 3px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 0px #E84545;
+}
+
+div.prestation div.affiche p {
+    height: 240px;
+}
+
+div.prestation div.affiche .titre {
+    font-size: 35px;
+}
+
+/**/
+/**/
+/**/
+
+/* HISTOIRE */
+
+div.histoire div.element {
+    border-left: #E84545 solid 3px;
+    border-right: #E84545 solid 3px;
+    padding: 0px 30px;
+}
+
+p.unique_texte {
+    text-align: center;
+    font-size: 26px;
+    color: #E84545;
+    font-weight: bolder;
+}
+
+/* FONDATEUR */
+
+div.fondateur .affiche {
+    background-color: #e0dede;
+    padding: 20px;
+    box-shadow: 0px 0px 20px 0px #858585;
+    width: 470px
+}
+
+img.fondateur {
+    width : 140px;
+    border-radius: 20px;   
+}
+
+div.fondateur div.element {
+    padding: 30px;
+}
+
+div.fondateur a {
+    color: #262626;
+    text-decoration: none;
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+}
+
+div.fondateur .lien:hover {
+    color: #E84545;
+}
+
+/**/
+/**/
+/**/
+
+/* ID */
+
+#left {
+    text-align: left;
+    justify-content: left;
+    align-items: baseline;
+}
+
+
+
+
+

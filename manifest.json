@@ -1,0 +1,25 @@
+{
+  "background_color": "#ffffff",
+  "description": "Test bendroz",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "arnaudtime.github",
+  "orientation": "any",
+  "scope": "/https://arnaudtime.github.io/Bendroz_V2/",
+  "short_name": "arnaudtime.github",
+  "start_url": "/https://arnaudtime.github.io/Bendroz_V2/",
+  "theme_color": "#ffffff",
+  "categories": [
+    "games"
+  ],
+  "screenshots": [],
+  "icons":[
+    {
+      "src": "128.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [],
+  "lang": "fr"
+}
