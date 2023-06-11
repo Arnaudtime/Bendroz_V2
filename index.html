@@ -104,7 +104,15 @@
         
         <footer class="footer">
             <img src="images/logo_texte_blanc.png" alt="bendroz">
-        </footer>       
+        </footer>
+	<script>
+      		if (navigator.serviceWorker) {
+        		navigator.serviceWorker.register (
+          			'/Bendroz_V2/sw.js',
+          			{scope: '/Bendroz_V2/'}
+        			)
+     			}
+  	</script>
     </body>
 </html>
 
