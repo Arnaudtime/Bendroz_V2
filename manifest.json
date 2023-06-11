@@ -7,7 +7,7 @@
   "orientation": "any",
   "scope": "/Bendroz_V2/",
   "short_name": "arnaudtime.github",
-  "start_url": "/https://arnaudtime.github.io/Bendroz_V2/",
+  "start_url": "/Bendroz_V2/",
   "theme_color": "#ffffff",
   "categories": [
     "games"
