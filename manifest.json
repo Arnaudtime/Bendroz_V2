@@ -5,7 +5,7 @@
   "display": "standalone",
   "name": "arnaudtime.github",
   "orientation": "any",
-  "scope": "/https://arnaudtime.github.io/Bendroz_V2/",
+  "scope": "/Bendroz_V2/",
   "short_name": "arnaudtime.github",
   "start_url": "/https://arnaudtime.github.io/Bendroz_V2/",
   "theme_color": "#ffffff",
