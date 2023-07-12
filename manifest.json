@@ -2,7 +2,7 @@
   "background_color": "#ffffff",
   "description": "Test bendroz",
   "dir": "ltr",
-  "display": "standalone",
+  "display": "fullscreen",
   "name": "arnaudtime.github",
   "orientation": "any",
   "scope": "/Bendroz_V2/",
